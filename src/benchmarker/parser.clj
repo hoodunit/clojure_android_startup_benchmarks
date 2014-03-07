@@ -1,5 +1,4 @@
-(ns log-parser.core
-  (:gen-class)
+(ns benchmarker.parser
   (:require [clojure.java.io :as io]
             [clj-time.core :as time]
             [clj-time.format :as time-fmt]))
@@ -44,11 +43,3 @@
     (doseq [t times]
       (println t))
     (println "Average:" (average times))))
-
-(defn -main
-  [& args]
-  (let [filename (first args)]
-    (print-file-results filename)))
-
-(-main "/home/ennus/school/thesis/experiments/benchmarks/logs/20140306/hello_world_lein/20140307_1142.logcat")
-
