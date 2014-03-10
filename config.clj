@@ -1,7 +1,14 @@
-{:test-apps [{:project-dir "/home/ennus/school/thesis/benchmark_programs/hello_world_java"
-              :package-name "com.android.helloworldjava"
+{:test-apps [
+             {:package-name "com.android.helloworldjava"
               :start-activity "HelloWorld"
-              :main-activity "HelloWorld"}]
+              :main-activity "HelloWorld"}
+             {:package-name "com.android.helloworldlein"
+              :start-activity "SplashActivity"
+              :main-activity "HelloWorld"}
+             {:package-name "com.android.helloworldminimal"
+              :start-activity "HelloWorld"
+              :main-activity "HelloWorld"}
+             ]
  :output-dir "/home/ennus/school/thesis/experiments/benchmarks/logs"
  :device-props ["dalvik.vm.dexopt-flags"
                 "dalvik.vm.heapgrowthlimit"
