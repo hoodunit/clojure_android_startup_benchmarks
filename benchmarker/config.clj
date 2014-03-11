@@ -9,7 +9,7 @@
               :start-activity "HelloWorld"
               :main-activity "HelloWorld"}
              ]
- :output-dir "/home/ennus/school/thesis/experiments/benchmarks/logs"
+ :output-dir "/home/ennus/school/thesis/benchmarks/logs"
  :device-props ["dalvik.vm.dexopt-flags"
                 "dalvik.vm.heapgrowthlimit"
                 "dalvik.vm.heapmaxfree"
