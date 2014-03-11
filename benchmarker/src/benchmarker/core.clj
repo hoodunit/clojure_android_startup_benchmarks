@@ -45,7 +45,7 @@
 (defn run-test [{:keys [package-name start-activity]} opts]
   (adb "shell" "am" "start" "-n" (str package-name "/." start-activity) opts)
   (Thread/sleep 20000)
-  (adb "shell" "am" "force-stop" package-name opts)
+  (adb "shell" "pm" "clear" package-name opts)
   (Thread/sleep 1000))
 
 (defn save-logcat [log-dir opts]
