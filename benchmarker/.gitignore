@@ -1,0 +1,12 @@
+/target
+/out
+/lib
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.env
+src/prod
