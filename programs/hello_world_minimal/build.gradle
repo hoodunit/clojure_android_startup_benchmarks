@@ -1,0 +1,64 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.8.0'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+  mavenCentral()
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    testBuildType "debug"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 19
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+        release {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        debug {
+            packageNameSuffix ".debug"
+            signingConfig signingConfigs.debug
+        }
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+  compile files('libs/clojure-1.5.1.jar')
+}
+
+task compileClojure(dependsOn: 'compileReleaseJava') {
+  doLast {
+    def command = """java -cp src/main/clojure:build/classes/release:libs/android-19.jar:libs/clojure-1.5.1.jar -Dclojure.compile.path=build/classes/release clojure.lang.Compile com.android.helloworldminimal.HelloWorld"""
+    def proc = command.execute()
+    proc.waitFor()
+  }
+}
+
+assembleRelease.dependsOn compileClojure
