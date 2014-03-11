@@ -1,0 +1,56 @@
+m=y
+192m
+8m
+512k
+512m
+8m
+0.75
+/data/anr/traces.txt
+libart.so
+msm8974
+msm
+HHZ11k
+true
+hynix
+orise
+D821
+hammerhead
+049828ce308ac34e
+HHZ11k
+unknown
+nosdcard
+1386201169
+Wed Dec  4 23:52:49 UTC 2013
+hammerhead-user 4.4.2 KOT49H 937116 release-keys
+KOT49H
+google/hammerhead/hammerhead:4.4.2/KOT49H/937116:user/release-keys
+wpef12.hot.corp.google.com
+KOT49H
+hammerhead
+release-keys
+user
+android-build
+REL
+937116
+4.4.2
+19
+hammerhead
+google
+armeabi
+armeabi-v7a
+hammerhead
+en
+US
+LGE
+Nexus 5
+hammerhead
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }

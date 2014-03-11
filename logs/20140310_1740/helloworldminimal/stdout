@@ -1,0 +1,56 @@
+m=y
+192m
+8m
+512k
+512m
+16m
+0.75
+/data/anr/traces.txt
+libdvm.so
+msm8960
+mdm
+FLO-04.02
+true
+
+
+
+flo
+0a6e8066
+FLO-04.02
+unknown
+tablet,nosdcard
+1386200391
+Wed Dec  4 23:39:51 UTC 2013
+razorg-user 4.4.2 KOT49H 937116 release-keys
+KOT49H
+google/razorg/deb:4.4.2/KOT49H/937116:user/release-keys
+wped11.hot.corp.google.com
+KOT49H
+deb
+release-keys
+user
+android-build
+REL
+937116
+4.4.2
+19
+deb
+google
+armeabi
+armeabi-v7a
+deb
+en
+US
+asus
+Nexus 7
+razorg
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
+Starting: Intent { cmp=com.android.helloworldminimal/.HelloWorld }
